@@ -10,6 +10,7 @@ export default function ShoppingItem(props) {
 
   useEffect(() => {
     props.editItem(props.id, name);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [name]);
 
   return (

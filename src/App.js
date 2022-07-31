@@ -64,12 +64,12 @@ function App(props) {
       {countText}
     </h2>
     <ul
-      role="list"
       className="shopping-list stack-large stack-exception"
       aria-labelledby="list-heading"
     >
       {itemList}
     </ul>
+    <button onClick={() => console.log(items)}>Clicky</button>
   </div>
   )
 };
