@@ -69,7 +69,7 @@ function App(props) {
     >
       {itemList}
     </ul>
-    <button onClick={() => console.log(items)}>Clicky</button>
+    {/*    <button onClick={() => console.log(items)}>Clicky</button> */}
   </div>
   )
 };
